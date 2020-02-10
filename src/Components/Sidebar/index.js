@@ -62,11 +62,11 @@ const Sidebar = () => {
             </ListItem>
             <ListItem button onClick={onClickButton}>
                 <ListItemIcon><Icons.ViewList /></ListItemIcon>
-                <ListItemText primary="View Items" />
+                <ListItemText primary="View items" />
             </ListItem>
             <ListItem button onClick={onClickButton}>
                 <ListItemIcon><Icons.PlaylistAdd /></ListItemIcon>
-                <ListItemText primary="Create Items" />
+                <ListItemText primary="Create items" />
             </ListItem>
         </List>
       </Drawer>
